@@ -30,7 +30,7 @@
 }
 .L-content {
   width: 550px;
-  height: 600px;
+  height: 550px;
   border-radius: 15px;
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
   /* backdrop-filter: blur(5px); */
