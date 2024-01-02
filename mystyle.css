@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Lobster";
+  src: url(assets/fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Butler_Medium";
+  src: url(font/Butler_Medium.otf);
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(font/Poppins-Medium.ttf);
+}
+:root {
+  --backgroundColor: #aabee6;
+  --fontColor: #000000;
+}
+.login-containter {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--backgroundColor);
+  color: var(--fontColor);
+  font-family: "Poppins";
+}
+.L-content {
+  width: 550px;
+  height: 600px;
+  border-radius: 15px;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  /* backdrop-filter: blur(5px); */
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.line {
+  position: relative;
+  height: 1px;
+  width: 100%;
+  margin: 20px 0;
+  background-color: #d4d4d4;
+}
+.line::before {
+  content: "Or";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  color: #8b8b8b;
+  padding: 0 15px;
+}
+.form-floating {
+  width: 80%;
+  position: relative;
+}
+.for-pass {
+  width: 80%;
+}
+.btn-primary {
+  background-color: var(--backgroundColor);
+  font-family: "Lobster";
+  font-size: 18px;
+  color: var(--fontColor);
+  letter-spacing: 2px;
+  margin: 10px auto;
+}
+.form-control{
+  padding-left: 52px !important;
+}
+.float{
+    margin-left: 40px !important;
+}
+.bxs-key, .bxs-envelope{
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    font-size: 20px;
+    color: var(--backgroundColor);
+}
+
+.bxs-hide, .bxs-show{
+    position: absolute;
+    top: 40%;
+    right: 2%;
+    font-size: 20px;
+    color: var(--backgroundColor);
+    cursor: pointer;
+}
