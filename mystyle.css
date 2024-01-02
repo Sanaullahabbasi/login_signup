@@ -94,3 +94,18 @@
     color: var(--backgroundColor);
     cursor: pointer;
 }
+.btn-mbl, .btn-google{
+    border: 1px dashed var(--backgroundColor);
+    margin: 5px auto;
+    font-weight: bold;
+}
+.btn-mbl:hover{
+    background-color: #034e74;
+    border: 1px solid var(--backgroundColor);
+    color: #fff;
+}
+.btn-google:hover{
+    background-color: #e50000;
+    border: 1px solid var(--backgroundColor);
+    color: #fff;
+}
