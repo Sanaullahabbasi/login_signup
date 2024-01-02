@@ -98,6 +98,7 @@
     border: 1px dashed var(--backgroundColor);
     margin: 5px auto;
     font-weight: bold;
+    position: relative;
 }
 .btn-mbl:hover{
     background-color: #034e74;
@@ -108,4 +109,12 @@
     background-color: #e50000;
     border: 1px solid var(--backgroundColor);
     color: #fff;
+}
+
+.bx-mobile-alt, .bxl-google{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    font-size: 25px;
+    color: var(--backgroundColor);
 }
