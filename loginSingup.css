@@ -40,6 +40,18 @@
   justify-content: center;
   flex-direction: column;
 }
+.signup-content{
+  width: 550px;
+  height: 600px;
+  border-radius: 15px;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  /* backdrop-filter: blur(5px); */
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .line {
   position: relative;
   height: 1px;
@@ -57,7 +69,7 @@
   color: #8b8b8b;
   padding: 0 15px;
 }
-.form-floating {
+.form-floating, .user {
   width: 80%;
   position: relative;
 }
@@ -78,7 +90,7 @@
 .float{
     margin-left: 40px !important;
 }
-.bxs-key, .bxs-envelope{
+.bxs-key, .bxs-envelope, .bxs-user{
     position: absolute;
     top: 40%;
     left: 2%;
@@ -94,6 +106,7 @@
     color: var(--backgroundColor);
     cursor: pointer;
 }
+
 .btn-mbl, .btn-google{
     border: 1px dashed var(--backgroundColor);
     margin: 5px auto;
@@ -110,11 +123,37 @@
     border: 1px solid var(--backgroundColor);
     color: #fff;
 }
-
 .bx-mobile-alt, .bxl-google{
     position: absolute;
     top: 20%;
     left: 2%;
     font-size: 25px;
     color: var(--backgroundColor);
+
 }
+.btn-mbl-reg, .btn-google-reg{
+    border: 1px dashed var(--backgroundColor);
+    margin: 5px auto;
+    font-weight: bold;
+    position: relative;
+}
+.btn-mbl-reg{
+    background-color: #034e74;
+    border: 1px solid var(--backgroundColor);
+    color: #fff !important;
+}
+.btn-google-reg{
+    background-color: #e50000;
+    border: 1px solid var(--backgroundColor);
+    color: #fff !important;
+}
+.btn-mbl-reg:hover, .btn-google-reg:hover{
+    border: 1px dashed var(--backgroundColor);
+    margin: 5px auto;
+    font-weight: bold;
+    position: relative;
+    color: black !important;
+}
+
+
+
